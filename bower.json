@@ -1,0 +1,14 @@
+{
+  "name": "Hora de sonhar",
+  "private": true,
+  "dependencies": {
+    "angular": "1.6.1"
+  },
+  "homepage": "https://github.com/luizsantos/horaSonhar",
+  "authors": [
+    "Luiz Santos <luizsantos1992@gmail.com>"
+  ],
+  "description": "Hora de sonhar festas e eventos",
+  "main": "",
+  "license": "MIT"
+}
