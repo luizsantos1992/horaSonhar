@@ -4,7 +4,7 @@
   "description": "Hora de sonhar festas e eventos",
   "main": "app.js",
   "scripts": {
-    "test": "node app.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,10 @@
     "bluebird": "^3.4.7",
     "express": "^4.14.1",
     "express-generator": "^4.14.1",
+    "express-load": "^1.1.15",
     "mysql": "^2.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }
