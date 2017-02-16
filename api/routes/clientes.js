@@ -4,4 +4,5 @@ module.exports = function(app){
 
 	app.get('/', clientes.index);
 	app.get('/lista-clientes', clientes.listaClientes);
+	app.get('/adicionar-cliente', clientes.adicionarCliente);
 }

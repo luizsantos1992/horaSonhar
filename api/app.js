@@ -2,10 +2,10 @@ var express = require('express'), load = require('express-load');
 var app = express();
 
 
-load('controllers')
-	.then('routes')
-	.then('models')
+load('models')
 	.then('middlewares')
+	.then('controllers')
+	.then('routes')
 	.into(app);
 
 
